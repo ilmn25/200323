@@ -1,0 +1,72 @@
+
+
+a{
+    vertical-align: middle;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+}
+.red{
+    
+    background-color: rgb(230, 0, 0);
+    border-radius: 2px;
+    color:white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    padding: 6.7px;
+}
+.twitter{
+    /*transform: scale(513,0);*/
+    background-color: rgb(29, 155, 240);
+    border-radius: 25px;
+    letter-spacing: normal;
+    color:white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    padding: 7px 10px 7px 10px;
+}
+.white{
+    
+    
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color:rgb(24, 24, 24);
+    /*border: none;*/
+    height: 40px;
+    width: 100px;
+}
+
+.join{
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 7.5px;
+    font-family: Arial;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    color:rgb(41, 118, 211);
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 0.7px;
+    transition: color 0.5s, background-color 0.5s, opacity 0.1s;   
+}
+
+.join:hover{
+    background-color: rgb(40, 90, 208);
+    color:rgb(199, 199, 199);
+}   
+.join:active{
+    opacity: 0.5;
+}
